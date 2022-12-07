@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import chargeur from "../../assets/images/chargeur.jpg";
 import prises from "../../assets/images/prises.jpg";
 import roue from "../../assets/images/roue.jpg";
+
 import "./Home.css";
 
 const Home = () => {
@@ -12,7 +13,7 @@ const Home = () => {
         <h1> Olga Yasnopolskaya </h1>
         <h2>
           {" "}
-          Développeuse Web junior <br /> Bordeaux{" "}
+          Développeuse Web Full Stack junior <br /> Bordeaux{" "}
         </h2>
         <Link to="/portfolio">
           <button className="main__button"> En savoir plus </button>

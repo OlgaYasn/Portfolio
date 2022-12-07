@@ -1,26 +1,25 @@
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    margin : 3vh 2vh;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 100;
+  padding : 4vh 0;
 }
 
 .links {
-    display:flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .navbar li {
-    margin-right: 5vw;
-    font-family: var(--light-font-family)
-
+  margin-right: 5vw;
+  font-family: var(--light-font-family);
 }
 
 .myName {
-    font-size: 4vh;
-
+  font-size: 4vh;
 }
-
-
-
-
-

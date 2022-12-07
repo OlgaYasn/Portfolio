@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 15vh;
 }
 
 .presentation__block {
@@ -27,27 +28,28 @@
 }
 
 .chargeur {
-  position: relative;
   width: 25vw;
-  top: -59vh;
-  left: 7vw;
+  position: relative;
+  top: -62vh;
+  left: 8vw;
   z-index: 1;
 }
 
 .roue {
   width: 40vw;
   position: relative;
-  top: -35vh;
+  top: -38vh;
   left: -3vw;
   z-index: 3;
 }
 .prises {
+  width: 30vw;
   position: relative;
   top: -22vh;
   left: -7vw;
-  width: 30vw;
   z-index: 2;
 }
+
 
 .main__button {
   font-family: var(--extralight-font-family);
@@ -81,6 +83,10 @@
 .main__button:hover:after {
   top: 0px;
   left: 0px;
+}
+
+.assis {
+  width: 30vw;
 }
 
 @media (min-width: 768px) {
