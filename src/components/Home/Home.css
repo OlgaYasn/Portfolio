@@ -1,0 +1,90 @@
+.general__block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.presentation__block {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5vh;
+}
+
+.presentation__block h1 {
+  font-size: 10vh;
+  margin: 3vh 0;
+  z-index: 10;
+}
+
+.presentation__block h2 {
+  font-size: 5vh;
+  font-family: var(--extralight-font-family);
+  text-align: center;
+  margin: 2vh 0;
+  z-index: 10;
+}
+
+.chargeur {
+  position: relative;
+  width: 25vw;
+  top: -59vh;
+  left: 7vw;
+  z-index: 1;
+}
+
+.roue {
+  width: 40vw;
+  position: relative;
+  top: -35vh;
+  left: -3vw;
+  z-index: 3;
+}
+.prises {
+  position: relative;
+  top: -22vh;
+  left: -7vw;
+  width: 30vw;
+  z-index: 2;
+}
+
+.main__button {
+  font-family: var(--extralight-font-family);
+  margin-top: 5vh;
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.main__button:after {
+  content: "";
+  background-color: #ffe54c;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.main__button:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+@media (min-width: 768px) {
+  .main__button {
+    padding: 13px 50px 13px;
+  }
+}

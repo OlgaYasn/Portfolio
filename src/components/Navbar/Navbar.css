@@ -1,0 +1,26 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin : 3vh 2vh;
+}
+
+.links {
+    display:flex;
+    align-items: center;
+}
+
+.navbar li {
+    margin-right: 5vw;
+    font-family: var(--light-font-family)
+
+}
+
+.myName {
+    font-size: 4vh;
+
+}
+
+
+
+
+
