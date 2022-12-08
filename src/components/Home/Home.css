@@ -2,7 +2,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 15vh;
+  margin-top: 13vh;
+  height: 120vh;
 }
 
 .presentation__block {
@@ -27,29 +28,41 @@
   z-index: 10;
 }
 
+.home__images {
+  position: relative;
+  width: 90vw;
+  display: row;
+  top: -44vh;
+}
+
 .chargeur {
   width: 25vw;
-  position: relative;
-  top: -62vh;
-  left: 8vw;
-  z-index: 1;
+  left: 5vw;
+  position: absolute;
+  -moz-box-shadow: 10px 10px 50px #ccc;
+  -webkit-box-shadow: 10px 10px 50px #ccc;
+  box-shadow: 10px 10px 50px #ccc;
 }
 
-.roue {
+.chat {
   width: 40vw;
-  position: relative;
-  top: -38vh;
-  left: -3vw;
-  z-index: 3;
-}
-.prises {
-  width: 30vw;
-  position: relative;
-  top: -22vh;
-  left: -7vw;
+  position: absolute;
+  top: 50vh;
+  left: 22vw;
   z-index: 2;
+  -moz-box-shadow: 10px 10px 50px #ccc;
+  -webkit-box-shadow: 10px 10px 50px #ccc;
+  box-shadow: 10px 10px 50px #ccc;
 }
-
+.clavier {
+  width: 30vw;
+  position: absolute;
+  top: 10vh;
+  left: 60vw;
+  -moz-box-shadow: 10px 10px 50px #ccc;
+  -webkit-box-shadow: 10px 10px 50px #ccc;
+  box-shadow: 10px 10px 50px #ccc;
+}
 
 .main__button {
   font-family: var(--extralight-font-family);

@@ -7,7 +7,7 @@
   width: 100%;
   background-color: white;
   z-index: 100;
-  padding : 4vh 0;
+  padding: 4vh 0;
 }
 
 .links {
@@ -20,6 +20,16 @@
   font-family: var(--light-font-family);
 }
 
+.navbar li a:hover {
+  color: grey;
+}
+
 .myName {
   font-size: 4vh;
+  margin-left: 3vw;
+}
+
+.active {
+  border-bottom: solid 4px #ffe54c;
+   color: grey;
 }

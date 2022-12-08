@@ -146,27 +146,17 @@ table {
 }
 
 :root {
-  --home-bg-color: #eb9ca4;
-  --cocktail-list-bg-color: #80c487;
-  --recipe-bg-color: #46a9bf;
-  --btn-bg-color: #ffff9e;
-  --btn-bg-color-click: #fe9971;
-  --crd-bg-color: #fe9971;
-  --btn-font-color: #131313;
-  --btn-box-shadow: 10px 10px #131313;
+  --yellow: #ffe54c;
   --title-font-family: "Oswald-Medium";
   --text-font-family: "Oswald-Regular";
   --light-font-family: "Oswald-Light";
   --extralight-font-family: "Oswald-ExtraLight";
-  --h1-font-size: 5rem;
-  --h1-font-size-mobile: 2rem;
-  --h2-font-size: 2.5rem;
-  --h2-font-size: 1.5rem;
-  --h3-font-size: 1rem;
-  --h4-font-size: 1rem;
-  --from-bg-color: #ffff9e;
 }
 
 h1 {
   font-family: var(--title-font-family);
+}
+
+.App {
+  position: relative;
 }

@@ -5,10 +5,13 @@ import Portfolio from "./components/Portfolio/Portfolio";
 import Apropos from "./components/Apropos/Apropos";
 import Contact from "./components/Contact/Contact";
 import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
+
 import "./App.css";
 
 function App() {
   return (
+    <div>
     <div className="App">
       <Navbar />
       <Routes>
@@ -17,6 +20,8 @@ function App() {
         <Route path="/apropos" element={<Apropos />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      </div>
+      <Footer/>
     </div>
   );
 }

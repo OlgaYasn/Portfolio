@@ -1,0 +1,41 @@
+.portfolio_images {
+  display: grid;
+  grid-template-columns: repeat(4, 23vw);
+  gap: 1vw;
+  margin: 15vh 2.5vw 0 2.5vw;
+}
+
+.project__bloc {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.project__title {
+  position: absolute;
+  text-align: center;
+  background-color: rgba(234, 234, 234, 0.7);
+  width: 14vw;
+  padding : 1.5vh 1vw;
+  margin-top: 6vh;
+  z-index: 5;
+}
+
+.project__title h1 {
+    font-size: 1.7rem;
+    margin-bottom: 3vh;
+}
+
+.project__title h2 {
+    font-family: var(--light-font-family);
+    font-size: 1.3rem;
+}
+
+.p_image {
+  width: 23vw;
+}
+
+.p_image:hover {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}

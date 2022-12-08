@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import chargeur from "../../assets/images/chargeur.jpg";
-import prises from "../../assets/images/prises.jpg";
-import roue from "../../assets/images/roue.jpg";
+import clavier from "../../assets/images/clavier.jpg";
+import chat from "../../assets/images/chat.jpg";
 
 import "./Home.css";
 
@@ -13,7 +13,7 @@ const Home = () => {
         <h1> Olga Yasnopolskaya </h1>
         <h2>
           {" "}
-          Développeuse Web Full Stack junior <br /> Bordeaux{" "}
+          Développeuse Web Full-Stack junior <br /> Bordeaux{" "}
         </h2>
         <Link to="/portfolio">
           <button className="main__button"> En savoir plus </button>
@@ -21,8 +21,8 @@ const Home = () => {
       </div>
       <div className="home__images">
         <img src={chargeur} className="chargeur" alt="chargeur" />
-        <img src={roue} className="roue" alt="roue" />
-        <img src={prises} className="prises" alt="prises" />
+        <img src={chat} className="chat" alt="chat" />
+        <img src={clavier} className="clavier" alt="clavier" />
       </div>
     </div>
   );
