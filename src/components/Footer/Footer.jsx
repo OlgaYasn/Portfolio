@@ -1,6 +1,5 @@
 import React from "react";
 import logogit from "../../assets/images/logo_git.png";
-import { NavLink } from "react-router-dom";
 import "./Footer.css";
 
 const Footer = () => {

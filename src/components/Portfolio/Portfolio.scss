@@ -1,0 +1,7 @@
+.portfolio_images {
+  display: grid;
+  grid-template-columns: repeat(4, 23vw);
+  gap: 1vw;
+  margin: 15vh 2.5vw 0 2.5vw;
+}
+
