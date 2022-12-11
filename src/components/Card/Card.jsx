@@ -37,14 +37,14 @@ const Card = ({ card }) => {
       </div>
       {popUp && (
         <div className="hidden_block">
-          <a href={card.github_link}>
+          <a href={card.github_link} target="blank">
             <img
               src={card.github_icon}
               className="github_image shake-bottom"
               alt="github"
             />
           </a>
-          <a href={card.netlify_link}>
+          <a href={card.netlify_link} target="blank">
             <img
               src={card.netlify_icon}
               className="netlify_image shake-bottom"
