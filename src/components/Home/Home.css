@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   margin-top: 15vh;
-  height: 83vh;
+  height: 76vh;
 }
 
 .presentation__block {
@@ -38,7 +38,7 @@
 .chargeur {
   width: 18vw;
   left: 9vw;
-  top: 6vh;
+  top: 5.9vh;
   position: absolute;
   -moz-box-shadow: 10px 10px 50px #ccc;
   -webkit-box-shadow: 10px 10px 50px #ccc;
@@ -48,7 +48,7 @@
 .chat {
   width: 30vw;
   position: absolute;
-  top: 45vh;
+  top: 44vh;
   left: 25vw;
   z-index: 2;
   -moz-box-shadow: 10px 10px 50px #ccc;

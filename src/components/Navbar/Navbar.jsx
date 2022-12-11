@@ -1,11 +1,13 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import "./Navbar.css";
 
 const Navbar = () => {
   return (
     <div className="navbar">
-      <h1 className="myName"> Olga YASNOPOLSKAYA</h1>
+      <Link to="/">
+        <h1 className="myName"> Olga YASNOPOLSKAYA</h1>{" "}
+      </Link>
       <ul className="links">
         <li>
           {" "}
@@ -21,8 +23,8 @@ const Navbar = () => {
         </li>
 
         <li>
-          <NavLink activeClassName="active" to="/apropos">
-            A propos{" "}
+          <NavLink activeClassName="active" to="/parcours">
+            Mon parcours{" "}
           </NavLink>
         </li>
 
