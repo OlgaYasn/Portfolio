@@ -2,18 +2,41 @@ import React from "react";
 import debout from "../../assets/images/photo_debout.JPG";
 import Pdf from "../../assets/documents/cv_web.pdf";
 import { timeline } from "../../utils/portfolio";
+import guillemets from "../../assets/images/guillemets2.png"
+import guillemets2 from "../../assets/images/guillemets.png";
 import "./Parcours.css";
 
 const Apropos = () => {
   return (
     <div className="about__mainblock">
-      <div className="image__div">
-        <img src={debout} className="debout" alt="photo_femme" />{" "}
-        <div className="download">
-          {" "}
-          <a href={Pdf} target="blank" className="link__download">
-            Télécharger CV
-          </a>
+      <div className="introduction">
+        <div className="image__div">
+          <img src={debout} className="debout" alt="photo_femme" />{" "}
+          <div className="download">
+            {" "}
+            <a href={Pdf} target="blank" className="link__download">
+              Télécharger CV
+            </a>
+          </div>
+        </div>
+        <div className="about__me">
+          <img src={guillemets} className="guillemets1" alt="guillemets" />
+          <div className="description">
+            <p className="mon__parcours">
+              Originaire de Saint Pétersbourg, je suis venue en France à l'âge
+              de 17 ans afin d'y suivre le cursus de droit.{" "}
+            </p>{" "}
+            <p className="mon__parcours">
+              Après quelques années sur le poste de juriste en droit social,
+              j'ai décidé de me reconvertir dans le domaine du développement
+              web.
+            </p>
+            <p className="mon__parcours">
+              Aujourd'hui, je recherche une entreprise qui pourrait m'accueillir
+              dans le cadre d'un contrat d'alternance à compter de mars 2023.{" "}
+            </p>
+          </div>
+          <img src={guillemets2} className="guillemets2" alt="guillemets" />
         </div>
       </div>
       <div className="parcours">
@@ -30,10 +53,6 @@ const Apropos = () => {
             ))}
           </ul>
         </div>
-      </div>
-      <div className="description">
-        <h1 className="about__maintitle"> Mon parcours</h1>
-        <p></p>
       </div>
     </div>
   );
