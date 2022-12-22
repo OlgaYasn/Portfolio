@@ -24,17 +24,17 @@ const Apropos = () => {
           <div className="description">
             <p className="mon__parcours">
               Originaire de Saint Pétersbourg, je suis venue en France à l'âge
-              de 17 ans afin d'y suivre le cursus de droit.{" "}
+              de 17 ans afin d'y suivre un cursus de droit.{" "}
             </p>{" "}
             <p className="mon__parcours">
-              Après quelques années sur le poste de juriste en droit social,
-              j'ai décidé de me reconvertir dans le domaine du développement
-              web.
+              Après quelques années d'exercice en tant que juriste en droit social,
+              j'ai pris la décision de me reconvertir dans le domaine du développement
+              web en intégrant le bootcamp "Wild Code School" de Bordeaux.
             </p>
             <p className="mon__parcours">
               Aujourd'hui, je recherche une entreprise qui pourrait m'accueillir
-              dans le cadre d'un contrat d'alternance à compter de mars 2023.{" "}
-            </p>
+              dans le cadre d'un <span className="underline_line">contrat d'alternance à compter de mars 2023.
+            </span></p>
           </div>
           <img src={guillemets2} className="guillemets2" alt="guillemets" />
         </div>
