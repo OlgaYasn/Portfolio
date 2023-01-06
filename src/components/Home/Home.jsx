@@ -15,7 +15,7 @@ const Home = () => {
           {" "}
           Développeuse Web Full-Stack junior <br /> Bordeaux{" "}
         </h2>
-        <Link to="/portfolio">
+        <Link to="/parcours">
           <button className="main__button"> En savoir plus </button>
         </Link>
       </div>
