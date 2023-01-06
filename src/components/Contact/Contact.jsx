@@ -15,7 +15,7 @@ const Contact = () => {
             <img src={github} className="github__logo" alt="github" />
           </a>
           <a
-            href="https://www.linkedin.com/in/olga-yasnopolskaya-349b04aa/"
+            href="https://www.linkedin.com/in/olga-yasnopolskaya/"
             target="blank"
           >
             <img src={linkedin} className="linkedin__logo" alt="linkedin" />
