@@ -21,7 +21,15 @@ const Contact = () => {
             <img src={linkedin} className="linkedin__logo" alt="linkedin" />
           </a>{" "}
         </div>
-        <form action="#" method="post" id="contact_form">
+        <form
+          action="/contact/submit"
+          name="contact"
+          method="post"
+          id="contact_form"
+          data-netlify="true"
+          onSubmit="submit"
+        >
+          <input type="hidden" name="form-name" value="contact" />
           <div className="form__name">
             <label for="name"></label>
             <input
@@ -67,7 +75,9 @@ const Contact = () => {
             ></textarea>
           </div>
           <div className="button_div">
-            <button className="form_button">Envoyer</button>
+            <button type="submit" className="form_button">
+              Envoyer
+            </button>
           </div>
         </form>
       </div>
